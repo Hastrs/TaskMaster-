@@ -120,6 +120,10 @@ button{
     align-items: center;
 
 }
+.task.completed .task-text {
+    text-decoration: line-through;
+    color: #555555;
+}
 .task{
     display: flex;
     align-items: center;
